@@ -1,0 +1,1700 @@
+#	Windows Commands
+
+#	Files and Folders Management
+COPY - Copies files to another location
+DIR – Displays files and folders in current directory
+DEL or ERASE - Deletes files
+EDIT - Starts file editor
+CD - Changes directory
+EXPAND - Decompresses compressed files
+FC - Compares files and shows the differences between them
+FIND - Finds a text string in the file
+MD or MAKEDIR - Creates a folder
+MOVE - Moves files from one folder to another
+PRINT - Prints out the text file contents
+RD or RMDIR - Deletes a folder
+REN or RENAME - Renames a file or folder
+REPLACE - Replaces files in one directory with files of the same name in another directory (overwrite)
+ROBOCOPY - Uses an advanced tool to copy files and directories
+TREE - Shows directory structure of a disk or folder
+TYPE - Displays the contents of text files
+OPENFILES – Manages opened local or network files
+XCOPY - Copies files and directory trees
+
+#	Applications and Processes
+SCHTASKS - Executes a command or start a scheduled application (Task Scheduler)
+SHUTDOWN - Shutdowns or reboots your computer
+TASKLIST - Lists the tasks being performed
+TASKKILL - Stops or halts a task (to stop a task you use a PID which you can find out from TASKLIST)
+REG – Starts registry editor
+RUNAS - Launches the task as another user
+
+#	Disks Management
+CHKDISK - Checks disk and shows statistics
+DEFRAG – Starts disk defragmentation
+CHKNTFS - Displays or changes execution of disk check at boot
+COMPACT - Displays and change the compression of files in NTFS partitions
+CONVERT - Converts FAT disk volume to NTFS
+DISKPART - Displays and adjusts disk partition properties
+FORMAT - Formats the disk
+FSUTIL - Displays and configures file system properties
+LABEL - Creates, changes, or deletes a disk volume label
+RECOVER - Recovers data from a bad or damaged disk
+VOL - Displays volume label and serial number for the disk
+
+#	System Information
+DATE - Outputs or sets the current date
+TIME - Displays or sets the system time
+DRIVERQUERY - Displays the current state and properties of the device driver
+HOSTNAME - Displays name of the computer
+SYSTEMINFO - Shows configuration information about your computer
+VER - Allows you to view the Windows version
+GPRESULT – Displays current applied group policies (RSoP)
+GPUPDATE – Updates group policies
+Network
+IPCONFIG - Shows information about network interfaces
+PING – Sends ICMP requests to the target host, checks host availability
+TRACERT - Finds the path for packets traveling over the network
+NSLOOKUP - Finds IP address by resource name
+ROUTE - Displays network route tables
+ARP- Shows a table with IP addresses converted into physical addresses
+NETSH – Starts is a network settings control program
+GETMAC - Shows the MAC address of the network adapter
+TFTP – Starts TFTP client in console
+Command Line Setup
+CLS - Clears screen
+CMD - Displays another command prompt
+COLOR - Sets the text and background color
+PROMPT - Changes the command line prompt
+TITLE - Assigns a title for the current session
+HELP – Launches CMD help
+EXIT - Exits the command line
+
+
+
+#   Linux Commands
+#	Commands	Description
+1	alias		To create a short name of a long command
+2	arch		Show system architecture (32 or 64bit)
+3	at			Schedule ad-hoc jobs
+4	awk			Shows the output by field
+5	bash		Shell
+6	bc			Calculator
+7	bg			Run a process in the background
+8	cal			Calender
+9	case		Script to provide options
+10	cat			Read a file
+11	cd			Change directory
+12	chage		Change a users attributes (e.g. password expiration etc.)
+13	chgrp		Change a file group ownership
+14	chmod		Change file permissions
+15	chown		Change a file ownership
+16	chronyc		Command for Chronyd (newer version of NTP)
+17	clear		Clear the screen
+18	cmp			Compare to files byte by byte
+19	command 	--help	Quick help on a command
+20	cp			Copy files or directories
+21	createrepo	Create local repository
+22	crontab		Schedule jobs
+23	curl		Transfer data or get destination server status
+24	cut			Cut characters or fields
+25	date		Display date and time
+26	dd			Convert or copy a file
+27	df			File system disk space usage
+28	diff		Compare files line by line
+29	dig			DNS lookup utility
+30	dmesg		Print the kernel ring buffer (system messages)
+31	dmidecode	Print system hardware information
+32	do			Scripting command works inconjunction with for or while loop
+33	du			File space usage
+34	echo		Display input on the screen
+35	else		Scripting command works inconjunction with for loop
+36	ethtool		Print NIC information
+37	exit		Exit the terminal
+38	export		export NFS filesystem
+39	fdisk		Display disk information
+40	fg			Bring a process in foreground
+41	fi			Scripting command works inconjunction with if
+42	find		Find files and directories
+43	firewall-cmd	Command line for firewall
+44	firewall-config	GUI for firewall
+45	for	Scripting command - For loop
+46	free		Show memory and swap information
+47	fsck		Repair files system
+48	ftp			Command to transfer files and directories
+49	grep		Used for search of a keyword
+50	groupadd	Create a new group
+51	groupdel	Delete a group
+52	gunzip		Compress a file
+53	gzip		Compress a file
+54	halt		Shutdown the system immediately
+55	head		List first lines of a file
+56	history		Shows history of all the commands
+57	hostname	Shows hostname of machine
+58	hostnamectl	Utility or a command to manage hostname
+59	id			Print your user information
+60	if			Scripting command works inconjunction with fi
+61	ifconfig	Print system network information
+62	ifdown		Bring down system network interface
+63	ifup		Bring up system network interface
+64	init		Bring system in different level
+65	iostat		Input/Output status
+66	ip			Replacement of ifconfig command
+67	iptables	Firewall utility command
+68	kill		Kill a process by process ID
+69	last		Shows listing of last logged in users
+70	less		Opposite of more
+71	ln			Create link
+72	locate		Find files and directories
+73	ls			List files and directories
+74	lvcreate	Create logical volume (LVM)
+75	lvdisplay	Display local volume (LVM)
+76	mail/sendmail	Command to send mail
+77	man			Display manual for each command
+78	mkdir		Create a new directory
+79	mkfs.xfs	Create an XFS filesystem
+80	mkswap		Make swap
+81	modprobe	Program to add and remove modules (NIC Bonding)
+82	more		Display a file one page at a time
+83	mount		Mount a filesystem
+84	mv			Move a file or directory
+85	netstat		Shows network status
+86	nice		Prioritize system processes
+87	nohup		Command to aviod intruption upon terminal exit
+88	nslookup	DNS lookup utility
+89	ntpq		NTP utility
+90	passwd		Change user password
+91	ping		Check the status of a remote system
+92	pipes		Pipe is used to change the output a command
+93	pkill		Kill a process by process name
+94	ps			List all running processes
+95	pvcreate	Create physical volume (LVM)
+96	pvdisplay	Display attributes of a physical volume (LVM)
+97	pvs			Report information about physical volumes (LVM)
+98	pwd			Print working directory or existing directory
+99	read		Command used in a script to read the input from user
+100	reboot		Reboot a system
+101	rm			Remove a file or directory
+102	rmdir		Make a directory
+103	rpm			Utility or manage system packages
+104	rsync		File copying tool (Most used to copy to remote hosts)
+105	scp			File copying tool (Most used to copy to remote hosts)
+				Scp root@ip:/folder root@:/folder
+				scp -r root@9.199.148.28:/opt/IBM/IFE/keys/* root@9.199.148.73:/opt/IBM/IFE/keys/
+106	script		Record terminal activity
+107	sed			Substitute text
+108	sestatus	Status of SELINUX
+109	sh			Shell
+110	shutdown	Shutdown the system
+111	sort		Sort the output
+112	sosreport	Collect and package diagnostic and support data
+113	split		Split files
+114	ssh			Protocol command to connect to remote host
+115	stat		Display file or file system status (SELINUX)
+116	su -		Switch user
+117	sudo		Run a command as another user (mostly root)
+118	swapoff		Turn swap OFF
+119	swapon		Turn swap ON
+120	systemctl	Command to stop|start|restart a service
+121	tail		Display last lines of a file
+122	tar			Put mulitiple files in a container
+123	tcpdump		Show every in and out traffic of a system
+124	tee			read and output to a file and screen
+125	telnet		Command to connect remote host (Insecure)
+126	then		Scripting command works inconjunction with for or while loop
+127	top			Print system resources
+128	touch		Create a new empty file
+129	traceroute	Trace network traffic
+130	umount		Un mount a filesystem
+131	uname		Print system information
+132	uniq		Remove all duplicates
+133	uptime		Shows system uptime and load information
+134	useradd		Create a new user
+135	userdel		Delete a user
+136	usermod		Modify a user attributes
+137	users		Print usernames of users currently logged in
+138	vgcreate	Create a volume group (LVM)
+139	vgdisplay	Display a volume group (LVM)
+140	vi			vi Editor
+141	w			Show who is logged on and what they are doing
+142	wall		Send a message to everybody’s terminal
+143	wc			Count words, character, lines etc
+144	wget		Network downloader program
+145	whatis		Short description of a command
+146	which		Shows the full path of (shell) commands
+147	while		Scripting command works inconjunction with do loop
+148	who			Show who is logged on
+149	whoami		Print your user ID information
+150	write		Send a message to another user
+151	xfs_growfs	Increase the size of an XFS filesystem
+152	xfs_repair	Repair XFS file system
+153	yum			Downloads|installs|updates packages
+	zip 		corrupt file	zip -FF IBM_APM4EU_Middlware_3.0.2_3_LNX_ML.zip --out IBM_APM4EU_Middlware_3.0.2_3_LNX_ML.zip1 -fz
+
+
+
+#	Docker Toolbox for Windows 7, 8 and 10 Home: Setup and Tips
+
+docker-machine ls
+docker-machine start
+docker version
+docker-machine help
+docker-machine env default
+
+#	Docker for Linux Setup and Tips
+http://get.docker.com
+curl -fsSL get.docker.com -o get-docker.sh
+sh get-docker.sh
+sudo usermod -aG docker bret
+sudo docker version
+
+docker-machine version
+http://github.com/docker/compose
+http://github.com/docker/compose/releases
+curl -L https://github.com/docker/compose/releases/download/1.15.0/docker-compose- `uname -s `- `uname -m` >/usr/local/bin/docker-compose
+
+#	docker-compose version
+http://github.com/docker/machine/releases
+http://github.com/BretFisher/udemy-docker-mastery
+git clone https://github.com/Bretfisher/udemy-docker-mastery.git
+cd udemy-docker-mastery/
+docker image
+docker image ls --
+
+#	Creating and Using Containers Like a Boss
+#	Check Our Docker Install and Config
+docker version
+docker info
+docker container run
+#	To kill all containers including its volumes use,
+docker container kill <cont. id>
+
+#	To stop all containers including its volumes use,
+docker container stop $(docker ps -aq)
+docker container stop $(docker container list -q)
+
+#	To delete all containers including its volumes use,
+docker container rm -f $(docker ps -aq)
+
+#	To delete all the images,
+docker image rmi -f $(docker images -aq)
+
+docker container prune
+docker image prune 
+docker volume prune
+docker network prune
+docker system prune
+
+# Starting a Nginx Web Server
+
+docker container run --publish 80:80 nginx
+docker container run --publish 80:80 --detach nginx
+docker container ls
+docker container stop 690
+docker container ls
+docker container ls -a
+docker container run --publish 80:80 --detach --name webhost nginx
+docker container ls -a
+docker container logs webhost
+docker container top
+docker container top webhost
+docker container --help
+docker container ls -a
+docker container rm 63f 690 ode
+docker container ls
+docker container rm -f 63f
+docker container ls -a
+
+## Container VS. VM: It's Just a Process
+docker run --name mongo -d mongo
+docker ps
+docker top mongo
+docker stop mongo
+docker ps
+docker top mongo
+docker start mongo
+docker ps
+docker top mongo
+
+#	Assignment Answers: Manage Multiple Containers
+
+docker container run -d -p 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORD=yes MYSQL_RANDOM_ROOT_PASSWORD
+docker container logs db
+docker container run -d --name webserver -p 8080:80 httpd
+docker ps
+docker container run -d --name proxy -p 80:80 nginx
+docker ps
+docker container ls
+docker container stop TAB COMPLETION
+docker ps -a
+docker container ls -a
+docker container rm
+docker ps -a
+docker image ls
+
+## What's Going On In Containers: CLI Process Monitoring
+docker container run -d --name nginx nginx
+docker container run -d --name mysql -e MYSQL_RANDOM_ROOT_PASSWORD=true mysql
+docker container ls
+docker container top mysql
+docker container top nginx
+docker container inspect mysql
+docker container stats --help
+docker container stats
+docker container ls
+
+## Getting a Shell Inside Containers: No Need for SSH
+docker container run -help
+docker container run -it --name proxy nginx bash
+docker container ls
+docker container ls -a
+docker container run -it --name ubuntu ubuntu
+docker container ls
+docker container ls -a
+docker container start --help
+docker container start -ai ubuntu
+docker container exec --help
+docker container exec -it mysql bash
+docker container ls
+docker pull alpine
+docker image ls
+docker container run -it alpine bash
+docker container run -it alpine sh
+
+## Docker Networks: Concepts for Private and Public Comms in Containers
+docker container run -p 80:80 --name webhost -d nginx
+docker container port webhost
+docker container inspect --format '{{ .NetworkSettings.IPAddress }}' webhost
+
+## Docker Networks: CLI Management of Virtual Networks
+docker network ls
+docker network inspect bridge
+docker network ls
+docker network create my_app_net
+docker network ls
+docker network create --help
+docker container run -d --name new_nginx --network my_app_net nginx
+docker network inspect my_app_net
+docker network --help
+docker network connect
+docker container inspect TAB COMPLETION
+docker container disconnect TAB COMPLETION
+docker container inspect
+
+## Docker Networks: DNS and How Containers Find Each Other
+docker container ls
+docker network inspect TAB COMPLETION
+docker container run -d --name my_nginx --network my_app_net nginx
+docker container inspect TAB COMPLETION
+docker container exec -it my_nginx ping new_nginx
+docker container exec -it new_nginx ping my_nginx
+docker network ls
+docker container create --help
+
+## Assignment Answers: Using Containers for CLI Testing
+docker container run --rm -it centos:7 bash
+docker ps -a
+docker container run --rm -it ubuntu:14.04 bash
+docker ps -a
+
+## Assignment Answers: DNS Round Robin Testing
+docker network create dude
+docker container run -d --net dude --net-alias search elasticsearch:2
+docker container ls
+docker container run --rm --net dude alpine nslookup search
+docker container run --rm --net dude centos curl -s search:9200
+docker container ls
+docker container rm -f TAB COMPLETION
+
+# Container Images, Where To Find Them and How To Build Them
+
+## The Mighty Hub: Using Docker Hub Registry Images
+
+http://hub.docker.com
+docker image ls
+docker pull nginx
+docker pull nginx:1.11.9
+docker pull nginx:1.11
+docker pull nginx:1.11.9-alpine
+docker image ls
+
+## Images and Their Layers: Discover the Image Cache
+docker image ls
+docker history nginx:latest
+docker history mysql
+docker image inspect nginx
+
+## Image Tagging and Pushing to Docker Hub
+docker image tag -- help
+docker image ls
+docker pull mysql/mysql-server
+docker image ls
+docker pull nginx:mainline
+docker image ls
+docker image tag nginx bretfisher/nginx
+docker image tag --help
+docker image ls
+docker image push bretfisher/nginx
+docker --help
+docker login
+cat .docker/config.json
+docker image push bretfisher/nginx
+docker image push bretfisher/nginx bretfisher/nginx:testing
+docker image ls
+docker image push bretfisher/nginx:testing
+docker image ls
+
+## Building Images: The Dockerfile Basics
+cd dockerfile-sample-1
+vim Dockerfile
+
+## Building Images: Running Docker Builds
+docker image build -t customnginx .
+docker image ls
+docker image build -t customnginx .
+
+## Building Images: Extending Official Images
+cd dockerfile-sample-2
+vim Dockerfile
+docker container run -p 80:80 --rm nginx
+docker image build -t nginx-with-html .
+docker container run -p 80:80 --rm nginx-with-html
+docker image ls
+docker image tag --help
+docker image tag nginx-with-html:latest bretfisher/nginx-with-html:latest
+docker image ls
+docker push
+
+## Assignment Answers: Build Your Own Dockerfile and Run Containers From It
+cd dockerfile-assignment-1
+vim Dockerfile
+docker build cmd
+docker build -t testnode .
+docker container run --rm -p 80:3000 testnode
+docker images
+docker tag --help
+docker tag testnode bretfisher/testing-node
+docker push --help
+docker push bretfisher/testing-node
+docker image ls
+docker image rm bretfisher/testing-node
+docker container run --rm -p 80:3000 bretfisher/testing-node
+
+# Container Lifetime & Persistent Data: Volumes, Volumes, Volumes
+## Persistent Data: Data Volumes
+docker pull mysql
+docker image inspect mysql
+docker container run -d --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=True mysql
+docker container ls
+docker container inspect mysql
+docker volume ls
+docker volume inspect TAB COMPLETION
+docker container run -d --name2 mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=True mysql
+docker volume ls
+docker container stop mysql
+docker container stop mysql2
+docker container ls
+docker container ls -a
+docker volume ls
+docker container rm mysql mysql2
+docker volume ls
+docker container run -d --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=True -v mysql-db:/var/lib/mysql mysql
+docker volume ls
+docker volume inspect mysql-db
+docker container rm -f mysql
+docker container run -d --name mysql3 -e MYSQL_ALLOW_EMPTY_PASSWORD=True -v mysql-db:/var/lib/mysql mysql
+docker volume ls
+docker container inspect mysql3
+docker volume create --help
+
+## Persistent Data: Bind Mounting
+cd dockerfile-sample-2
+pcat Dockerfile
+docker container run -d --name nginx -p 80:80 -v $(pwd):/usr/share/nginx/html nginx
+docker container run -d --name nginx2 -p 8080:80 nginx
+docker container exec -it nginx bash
+
+## Assignment Answers: Edit Code Running In Containers With Bind Mounts
+docker run -p 80:4000 -v $(pwd):/site bretfisher/jekyll-serve
+
+# Making It Easier with Docker Compose: The Multi-Container Tool
+## Docker Compose and The Docker-compose.yml File
+docker-compose.yml
+https://docs.docker.com
+
+## Trying Out Basic Compose Commands
+pcat docker-compose.yml
+docker-compose up
+docker-compose up -d
+docker-compose logs
+docker-compose --help
+docker-compose ps
+docker-compose top
+docker-compose down
+
+## Assignment Answers: Build a Compose File for a Multi-Container Service
+docker-compose.yml
+docker pull drupal
+docker image inspect drupal
+docker-compose up
+https://hub.docker.com
+docker-compose down --help
+docker-compose down -v
+
+## Adding Image Building to Compose Files
+docker-compose.yml
+docker-compose up
+docker-compose up --build
+docker-compose down
+docker image ls
+docker-compose down --help
+docker image rm nginx-custom
+docker image ls
+docker-compose up -d
+docker image ls
+docker-compose down --help
+docker-compose down --rmi local
+
+## Assignment Answers: Compose for Run-Time Image Building and Multi-Container Dev
+docker-compose up
+docker-compose down
+docker-compose up
+
+# Swarm Intro and Creating a 3-Node Swarm Cluster
+## Create Your First Service and Scale it Locally
+docker info
+docker swarm init
+docker node ls
+docker node --help
+docker swarm --help
+docker service --help
+docker service create alpine ping 8.8.8.8
+docker service ls
+docker service ps frosty_newton
+docker container ls
+docker service update TAB COMPLETION --replicas 3
+docker service ls
+docker service ps frosty_newton
+docker update --help
+docker service update --help
+docker container ls
+docker container rm -f frosty_newton.1.TAB COMPLETION
+docker service ls
+docker service ps frosty_newton
+docker service rm frosty_newton
+docker service ls
+docker container ls
+
+## Creating a 3-Node Swarm Cluster
+http://play-with-docker.com
+docker info
+docker-machine
+docker-machine create node1
+docker-machine ssh node1
+docker-machine env node1
+docker info
+http://get.docker.com
+docker swarm init
+docker swarm init --advertise-addr TAB COMPLETION
+docker node ls
+docker node update --role manager node2
+docker node ls
+docker swarm join-token manager
+docker node ls
+docker service create --replicas 3 alpine ping 8.8.8.8
+docker service ls
+docker node ps
+docker node ps node2
+docker service ps sleepy_brown
+
+## Scaling Out with Overlay Networking
+docker network create --driver overlay mydrupal
+docker network ls
+docker service create --name psql --netowrk mydrupal -e POSTGRES_PASSWORD=mypass postgres
+docker service ls
+docker service ps psql
+docker container logs psql TAB COMPLETION
+docker service create --name drupal --network mydrupal -p 80:80 drupal
+docker service ls
+watch docker service ls
+docker service ps drupal
+docker service inspect drupal
+
+# Swarm Basic Features and How to Use Them In Your Workflow
+## Scaling Out with Overlay Networking
+docker network create --driver overlay mydrupal
+docker network ls
+docker service create --name psql --network mydrupal -e POSTGRES_PASSWORD=mypass postgres
+docker service ls
+docker service ps psql
+docker container logs psql TAB COMPLETION
+docker service create --name drupal --network mydrupal -p 80:80 drupal
+docker service ls
+watch docker service ls
+docker service ps drupal
+docker service inspect drupal
+
+## Scaling Out with Routing Mesh
+docker service create --name search --replicas 3 -p 9200:9200 elasticsearch:2
+docker service ps search
+
+## Assignment Answers: Create a Multi-Service Multi-Node Web App
+docker node ls
+docker service ls
+docker network create -d overlay backend
+docker network create -d overlay frontend
+docker service create --name vote -p 80:80 --network frontend -- replica 2 COPY IMAGE
+docker service create --name redis --network frontend --replica 1 redis:3.2
+docker service create --name worker --network frontend --network backend COPY IMAGE
+docker service create --name db --network backend COPY MOUNT INFO
+docker service create --name result --network backend -p 5001:80 COPY INFO
+docker service ls
+docker service ps result
+docker service ps redis
+docker service ps db
+docker service ps vote
+docker service ps worker
+cat /etc/docker/
+docker service logs worker
+docker service ps worker
+
+## Swarm Stacks and Production Grade Compose
+docker stack deploy -c example-voting-app-stack.yml voteapp
+docker stack
+docker stack ls
+docker stack ps voteapp
+docker container ls
+docker stack services voteapp
+docker stack ps voteapp
+docker network ls
+docker stack deploy -c example-voting-app-stack.yml voteapp
+
+## Using Secrets in Swarm Services
+docker secret create psql_usr psql_usr.txt
+echo "myDBpassWORD" | docker secret create psql_pass - TAB COMPLETION
+docker secret ls
+docker secret inspect psql_usr
+docker service create --name psql --secret psql_user --secret psql_pass -e POSTGRES_PASSWORD_FILE=/run/secrets/psql_pass -e POSTGRES_USER_FILE=/run/secrets/psql_user postgres
+docker service ps psql
+docker exec -it psql.1.CONTAINER NAME bash
+docker logs TAB COMPLETION
+docker service ps psql
+docker service update --secret-rm
+
+## Using Secrets with Swarm Stacks
+vim docker-compose.yml
+docker stack deploy -c docker-compose.yml mydb
+docker secret ls
+docker stack rm mydb
+
+## Assignment Answers: Create A Stack with Secrets and Deploy
+vim docker-compose.yml
+docker stack deploy - c docker-compose.yml drupal
+echo STRING |docker secret create psql-ps - VALUE
+docker stack deploy -c docker-compose.yml drupal
+docker stack ps drupal
+
+# Swarm App Lifecycle
+## Using Secrets With Local Docker Compose
+docker node ls
+docker-compose up -d
+docker-compose exec psql cat /run/secrets/psql_user
+docker-compose 11
+pcat docker-compose.yml
+
+## Full App Lifecycle: Dev, Build and Deploy With a Single Compose Design
+docker-compose up -d
+docker inspect TAB COMPLETION
+docker-compose down
+docker-compose -f docker-compose.yml -f docker-compose.test.yml up -d
+docker inspect TAB COMPLETION
+docker-compose -f docker-compose.yml -f docker-compose.prod.yml config --help
+docker-compose -f docker-compose.yml -f docker-compose.prod.yml config
+docker-compose -f docker-compose.yml -f docker-compose.prod.yml config > output.yml
+
+## Service Updates: Changing Things In Flight
+docker service create -p 8088:80 --name web nginx:1.13.7
+docker service ls
+docker service scale web=5
+docker service update --image nginx:1.13.6 web
+docker service update --publish-rm 8088 --publish-add 9090:80
+docker service update --force web
+
+## Healthchecks in Dockerfiles
+docker container run --name p1 -d postgres
+docker container ls
+docker container run --name p2 -d --health-cmd="pg_isready -U postgres || exit 1" postgres
+docker container ls
+docker container inspect p2
+docker service create --name p1 postgres
+docker service create --name p2 --health-cmd="pg_isready -U postgres || exit 1" postgres
+
+# Container Registries: Image Storage and Distribution
+## Docker Hub: Digging Deeper
+https://hub.docker.com
+
+## Docker Store: What Is It For?
+https://store.docker.com
+
+## Docker Cloud: CI/CD and Server Ops
+https://cloud.docker.com
+https://hub.docker.com
+
+## Understanding Docker Registry
+https://github.com/docker/distribution
+https://hub.docker.com/registry
+
+## Run a Private Docker Registry
+docker container run -d -p 5000:5000 --name registry registry
+docker container ls
+docker image ls
+docker pull hello-world
+docker run hello-world
+docker tag hello-world 127.0.0.1:5000/hello-world
+docker image ls
+docker push 127.0.0.1:5000/hello-world
+docker image remove hello-world
+docker image remove 127.0.0.1:5000/hello-world
+docker container rm admiring_stallman
+docker image remove 127.0.0.1:5000/hello-world
+docker image ls
+docker pull 127.0.0.1:5000/hello-world:latest
+docker container kill registry
+docker container rm registry
+docker container run -d -p 5000:5000 --name registry -v $(pwd)/registry-data:/var/lib/registry registry TAB COMPLETION
+docker image ls
+docker push 127.0.0.1:5000/hello-world
+
+## Using Docker Registry With Swarm
+http://play-with-docker.com
+docker node ls
+docker service create --name registry --publish 5000:5000 registry
+docker service ps registry
+docker pull hello-world
+docker tag hello-world 127.0.0.1:5000/hello-world
+docker push 127.0.0.1:5000/hello-world
+docker pull nginx
+docker tag nginx 127.0.0.1:5000/nginx
+docker push 127.0.0.1:5000/nginx
+docker service create --name nginx -p 80:80 --replicas 5 --detach=false 127.0.0.1:5000/nginx
+docker service ps nginx
+
+
+
+#Kubernetes
+
+# 	Pods
+kubectl get pods
+kubectl run nginx --image=nginx
+kubectl describe pods
+kubectl delete pod webapp
+kubectl run redis --image=redis123 --dry-run=client -o yaml > redis-definition.yaml
+kubectl create -f redis-definition.yaml 
+kubectl apply -f redis-definition.yaml 
+
+# ReplicaSets
+kubectl get replicaset/rs
+kubectl describe replicaset
+kubectl explain replicaset
+
+#	grep for particular specs
+kubectl explain replicaset | grep VERSION
+kubectl replace --force nginx.yaml
+
+#	select pods based on selectors
+kubectl get pods --selector env=dev
+kubectl get all --selector env=prod --no-headers |wc -l
+kubectl get pod --selector env=prod,bu=finance,tier=frontend
+
+# Taint nodes
+kubectl taint nodes node01 spray=mortein:NoSchedule
+Run the command: kubectl taint nodes controlplane node-role.kubernetes.io/control-plane:NoSchedule- to untaint the node.
+Run the command: kubectl taint nodes controlplane node-role.kubernetes.io/control-plane:NoSchedule- to untaint the node.
+
+#	How many Labels exist on node node01?
+kubectl describe node node01
+Apply a label color=blue to node node01
+kubectl label node node01 color=blue
+kubectl describe node controlplane | grep -i taints
+kubectl get daemonsets --all-namespaces
+kubectl get all --all-namespaces
+kubectl describe daemonset kube-proxy --namespace=kube-system
+
+#	check using most resources
+kubectl top node
+kubectl top pod
+kubectl create configmap webapp-config-map --from-literal=APP_COLOR=darkblue
+
+# Gets the yaml
+kubectl run redis --image=redis:alpine --dry-run=client -o yaml > redis-pod.yaml
+kubectl get secret mongo-server-cert -o yaml
+kubectl run nginx --image=nginx --dry-run=client -o yaml (will give yaml output to edit)
+kubectl create secret generic db-secret --from-literal=DB_Host=sql01 --from-literal=DB_User=root --from-literal=DB_Password=password123
+
+#	pv not scheduled
+Run the command: kubectl get pv,pvc and look under the Access Modes section. The Access Modes set on the PV and the PVC do not match
+Update the webapp pod to use the persistent volume claim as its storage. Replace hostPath configured earlier with the newly created PersistentVolumeClaim.
+The PVC was still being used by the webapp pod when we issued the delete command. Until the pod is deleted, the PVC will remain in a terminating state.
+
+### The Storage Class called local-storage makes use of VolumeBindingMode set to WaitForFirstConsumer. This will delay the binding and provisioning of a PersistentVolume until a Pod using the PersistentVolumeClaim is created.
+
+# port
+kubectl expose pod redis --port=6379 --name redis-service
+
+# get pods in namespace
+Kubectl get pods -n mongoce
+kubectl get nodes -o wide
+oc get pod -A (all namespaces)
+
+# create config map
+kubectl create configmap nginx-configuration --namespace ingress-space
+
+# create secrets
+kubectl create serviceaccount ingress-serviceaccount --namespace ingress-space
+
+#	What is the MAC address 
+ip link show eth0
+
+# create deployment
+kubectl create deployment webapp --image=kodekloud/webapp-color --replicas=3
+kubectl create deployment redis-deploy --image=redis --replicas=2 -n dev-ns
+kubectl run custom-nginx --image=nginx --port=8080
+kubectl run httpd --image=httpd:alpine --port=80 --expose
+
+# create namespace
+kubectl create ns dev-ns
+
+# Creating secrets 
+echo -n 'password' | base64
+
+# logs
+kubectl logs -n mongoce
+oc logs -f pods/instrumentationdb-instance1-8fml-0
+
+# Kubernetes Install and Your First Pods
+## Kubernetes Local Install
+http://play-with-k8s.com
+katacoda.com
+
+### minikube
+minikube-installer.exe
+minikube start
+
+### microk8s
+microk8s.kubectl
+microk8s.enable dns
+alias kubectl=microk8s.kubectl
+
+## Kubectl run, create and apply
+kubectl run
+kubectl create
+kubectl apply
+
+## Our First Pod With Kubectl run
+kubectl version
+kubectl run my-nginx --image nginx
+kubectl get pods
+kubectl get all
+kubectl delete deployment my-nginx
+kubectl get all
+
+## Scaling ReplicaSets
+kubectl run my-apache --image httpd
+kubectl get all
+kubectl scale deploy/my-apache --replicas2
+kubectl scale deployment my-apache --replicas2
+kubectl get all
+
+## Inspecting Kubernetes Objects
+kubectl get pods
+kubectl logs deployment/my-apache
+kubectl logs deployment/my-apache --follow --tail 1
+kubectl logs -l run=my-apache
+kubectl get pods
+kubectl describe pod/my-apache-<pod id>
+kubectl get pods -w
+kubectl delete pod/my-apache-<pod id>
+kubectl get pods
+kubectl delete deployment my-apache
+
+# Exposing Kubernetes Ports
+## Service Types
+kubectl expose
+
+## Creating a ClusterIP Service
+kubectl get pods -w
+kubectl create deployment httpenv --image=bretfisher/httpenv
+kubectl scale deployment/httpenv --replicas=5
+kubectl expose deployment/httpenv --port 8888
+kubectl get service
+kubectl run --generator run-pod/v1 tmp-shell --rm -it --image bretfisher/netshoot -- bash
+curl httpenv:8888
+curl [ip of service]:8888
+kubectl get service
+
+## Creating a NodePort and LoadBalancer Service
+kubectl get all
+kubectl expose deployment/httpenv --port 8888 --name httpenv-np --type NodePort
+kubectl get services
+curl localhost:32334
+kubectl expose deployment/httpenv --port 8888 --name httpenv-lb --type LoadBalancer
+kubectl get services
+curl localhost:8888
+kubectl delete service/httpenv service/httpenv-np
+kubectl delete service/httpenv-lb deployment/httpenv
+
+## Kubernetes Services DNS
+curl <hostname>
+kubectl get namespaces
+curl <hostname>.<namespace>.svc.cluster.local
+
+# Kubernetes Management Techniques
+## Run, Expose and Create Generators
+kubectl create deployment sample --image nginx --dry-run -o yaml
+kubectl create deployment test --image nginx --dry-run
+kubectl create deployment test --image nginx --dry-run -o yaml
+kubectl create job test --image nginx -dry-run -o yaml
+kubectl expose deployment/test --port 80 --dry-run -o -yaml
+kubectl create deployment test --image nginx
+kubectl expose deployment/test --port 80 --dry-run -o -yaml
+kubectl delete deployment test
+
+## The Future of Kubectl Run
+kubectl run test --image nginx --dry-run
+kubectl run test --image nginx --port 80 --expose --dry-run
+kubectl run test --image nginx --restart OnFailure --dry-run
+kubectl run test --image nginx --restart Never --dry-run
+kubectl run test --image nginx --scheduled "*/1 * * * *" --dry-run
+
+## Imperative vs. Declarative
+kubectl apply -f my-resources.yaml
+kubectl run
+
+# Moving to Declarative Kubernetes YAML
+## Kubectl Apply
+kubectl apply -f filename.yml
+kubectl apply -f myfile.yaml
+kubectl apply -f myyaml/
+kubectl apply -f https://bret.run/pod.yml
+curl -L https://bret.run/pod
+start https://bret.run/pod.yml
+
+## Building Your YAML Files
+kubectl api-resources
+kubectl api-versions
+
+## Dry Runs and Diffs
+kubectl apply -f app.yml --dry-run
+kubectl apply -f app.yml --server-dry-run
+kubectl diff -f app.yml
+
+## Labels and Label Selectors
+kubectl get pods -l app=nginx
+kubectl apply -f myfile.yaml -l app=nginx
+kubectl get all
+kubectl delete <resource type>/<resource name>
+
+# Your Next Steps, and The Future of Kubernetes
+## Kubernetes Dashboard
+https://github.com/kubernetes/dashboard
+
+## Namespaces and Context
+kubectl get namespaces
+kubectl get all -all-namespaces
+~/.kube/config file
+kubectl config get-contexts
+kubectl config set*
+
+#	ISTIO (Service Mesk)
+
+
+
+
+
+
+
+
+
+
+#	OpenShift
+
+#	Checking and debuging Nodes
+oc get nodes
+oc debug node
+oc debug node/10.74.26.130
+chroot /host
+cat .docker/config.json
+oc get secret/pull-secret -n openshift-config -o jsonpath='{.data.\.dockerconfigjson}' | base64 -d
+
+oc delete deployment --all -n ibm-common-services
+oc delete serviceaccount --all -n ibm-common-services
+oc delete secrets --all -n ibm-common-services
+oc delete configmaps --all -n ibm-common-services
+oc delete services --all -n ibm-common-services
+oc delete routes --all -n ibm-common-services
+oc delete pvc --all -n ibm-common-services
+oc delete rolebinding --all -n ibm-common-services
+oc delete project ibm-common-services
+oc delete all --selector kubernetes.io/metadata.name=openshift-marketplace
+
+
+
+# Log in, log out
+# Uses the pre-configured OpenShift cluster
+oc login
+
+#json package for output
+sudo rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sudo yum update
+sudo yum install incron jq
+
+# Allows you to log in to any OpenShift cluster
+oc login <cluster address>
+oc whoami --show-server
+
+# Log out
+oc logout
+
+# See current project
+oc project
+
+# Create a new project
+oc new-project demo-project
+
+# List all projects
+oc projects
+
+# Switch projects
+oc project <project name>
+
+# Get Pod Documentation
+
+# Get built-in documentation for Pods
+oc explain pod
+
+# Get details on the pod's spec
+oc explain pod.spec
+
+# Get details on the pod's containers
+oc explain pod.spec.containers
+
+# Creating Pods from files
+
+# Create a Pod on OpenShift based on a file
+oc create -f pods/pod.yaml
+oc apply -f generatekey.yaml --dry-run
+
+
+# Show all currently running Pods
+oc get pods
+
+# Port forwarding for Pods
+
+# Open a local port that forwards traffic to a pod
+oc port-forward <pod name> <local port>:<pod port>
+
+# Example of 8080 to 8080 for hello world
+oc port-forward hello-world-pod 8080:8080
+
+
+# Shell into Pods/exec
+
+# oc rsh will work with any Pod name from oc get pods
+oc rsh <pod name>
+oc exec  -it instrumentationdb-instance1-8fml-0 -- /bin/bash
+
+# In the shell, check the API on port 8080
+wget localhost:8080
+
+# Exit the rsh session
+exit
+
+# Watch live updates to pods
+oc get pods --watch
+
+# Delete (stop) Pods
+
+# Delete any OpenShift resource
+oc delete <resource type> <resource name>
+
+# Delete the pod for this section
+oc delete pod hello-world-pod
+
+
+# Deploying applications as DeploymentConfigs
+
+# Deploy an existing image based on its tag
+oc new-app <image tag> \
+  --as-deployment-config
+
+# Deploy the Hello World image for this course
+oc new-app quay.io/practicalopenshift/hello-world \
+  --as-deployment-config
+
+# Deploy from Git using oc new-app
+oc new-app <git repo URL> \
+  --as-deployment-config
+
+# Deploy the Hello World application from Git
+oc new-app https://gitlab.com/practical-openshift/hello-world.git \
+  --as-deployment-config
+
+# Follow build progress (Git only)
+oc logs -f bc/hello-world
+
+# Set the name for the DeploymentConfig 
+oc new-app <image tag> --name <desired name> \
+  --as-deployment-config
+
+# Example with a name
+oc new-app quay.io/practicalopenshift/hello-world \
+  --name demo-app \
+  --as-deployment-config
+
+# Get more information about a DeploymentConfig
+
+# Describe the DC to get its labels
+oc describe dc/hello-world
+
+# Get the full YAML definition
+oc get -o yaml dc/hello-world
+
+
+# Deleting all oc new-app resources
+
+# Delete all application resources using labels (get them from oc describe)
+oc delete all -l app=hello-world
+
+
+# Starting new versions and reverting changes
+
+# Roll out the latest version of the application
+oc rollout latest dc/hello-world
+
+# Roll back to the previous version of the application
+oc rollback dc/hello-world
+# Trigger management
+# Both ImageChange and ConfigChange triggers are enabled by default
+
+# List triggers
+oc set triggers dc/<dc name>
+
+# Remove the ConfigChange trigger
+oc set triggers dc/<dc name> \
+  --remove
+  --from-config
+
+# Re-add the ConfigChange trigger
+oc set triggers dc/<dc name> --from-config
+
+# Remove the ImageChange trigger
+oc set triggers dc/<dc name> \
+  --remove \
+  --from-image <image name>:<tag>
+
+# Re-add the ImageChange trigger
+# You need to pick a container in your pod spec that corresponds to the image in --from-image
+oc set triggers dc/<dc name> \
+  --from-image <image name>:<tag> \
+  -c <container name>
+
+
+# Deployment Hooks
+
+# General syntax
+oc set deployment-hook dc/<dc name> \
+  (--pre, --post, or --mid) \
+  -c <container name to execute hook in>
+  -- <command to execute for the hook>
+
+# Example: Add a simple deployment hook
+oc set deployment-hook dc/hello-world \
+  --pre \
+  -c hello-world \
+  -- /bin/echo Hello from pre-deploy hook
+
+# Check the hook in the DeploymentConfig definition
+oc describe dc/hello-world
+
+
+# Switching to the Recreate Strategy
+# No oc set deployment-strategy as of writing, so you'll need to manually update the resource definition
+
+# Start editing the DeploymentConfig
+oc edit dc/hello-world
+
+# To change to Recreate, switch the spec.strategy to be:
+
+  strategy:
+    type: Recreate
+
+
+# Readiness and Liveness probes
+
+# General syntax
+oc set probe dc/<dc name> (--liveness or --readiness) (--open-tcp, --get-url, or -- for a command)
+
+# Example: Add a liveness probe that opens TCP port 8080 for its test
+oc set probe dc/hello-world --liveness --open-tcp=8080
+
+# Example: Add a readiness probe that requests localhost port 8080 with the path /health/readiness for its test
+oc set probe dc/hello-world --readiness --get-url=http://:8080/health/readiness
+
+# Example: Add a readiness probe that runs "exit 0" inside the container as its test
+oc set probe dc/hello-world --readiness -- exit 0
+
+
+
+# Creating new BuildConfigs
+
+# Create a new BuildConfig from a Git repository URL
+oc new-build <Git URL>
+
+# Example
+oc new-build https://gitlab.com/practical-openshift/hello-world.git
+
+# Start a new build from the update-message branch
+oc new-build https://gitlab.com/practical-openshift/hello-world.git#update-message
+
+# Use --context-dir to build from a subdirectory
+oc new-build https://gitlab.com/practical-openshift/labs.git --context-dir hello-world
+
+
+# Working with existing BuildConfigs
+
+# Start a build
+oc start-build bc/hello-world
+
+# Get logs for a single build
+oc logs -f build/hello-world-1
+oc logs -f pods/instrumentationdb-instance1-8fml-0
+
+# Get logs for the latest build for a BuildConfig
+# This is the best way (usually)
+oc logs -f bc/hello-world
+
+# Cancel a running build
+oc cancel-build bc/hello-world
+
+# Get more information about the build
+oc get -o yaml buildconfig/hello-world
+
+# See builds that have run
+oc get build
+
+# Start a build for an existing BuildConfig
+oc start-build bc/hello-world
+
+
+# Set build hooks
+
+# Set a post-commit hook
+oc set build-hook bc/hello-world \
+  --post-commit \
+  --script="echo Hello from build hook"
+
+# Check the logs output for "Hello from build hook"
+oc logs -f bc/hello-world
+
+# Set a failing build hook to observe the behavior
+oc set build-hook bc/hello-world \
+  --post-commit \
+  --script="exit 1"
+
+# Check the events to see if it ran
+oc get events
+
+# Remove the build hook
+oc set build-hook bc/hello-world \
+  --post-commit \
+  --remove
+
+# See all of your pods
+oc get pods
+
+
+# Working with WebHooks
+
+# Get the secret token
+oc get -o yaml buildconfig/hello-world
+
+# Export the secret as a variable
+export GENERIC_SECRET=<generic token from previous command>
+
+# Get the webhook URL
+oc describe buildconfig/hello-world
+
+# Copy the webhook URL and replace <secret> with $GENERIC_SECRET
+curl -X POST -k <webhook URL with secret replaced with $GENERIC_SECRET>
+
+
+# Creating ConfigMaps
+
+# Create a ConfigMap using literal command line arguments
+oc create configmap <configmap-name> --from-literal KEY="VALUE"
+
+# Create from a file
+oc create configmap <configmap-name> --from-file=MESSAGE.txt
+
+# Create from a file with a key override
+oc create configmap <configmap-name> --from-file=MESSAGE=MESSAGE.txt
+
+# Same --from-file but with a directory
+oc create configmap <configmap-name> --from-file pods
+
+# Verify
+oc get -o yaml configmap/<configmap-name>
+
+
+# Consuming ConfigMaps as Environment Variables
+
+# Set environment variables (same for all types of ConfigMap)
+oc set env dc/hello-world --from cm/<configmap-name>
+
+# Creating Secrets
+
+# Create a simple generic (Opaque) Secret
+oc create secret generic <secret-name> --from-literal KEY="VALUE"
+
+# Check the Secret
+oc get -o yaml secret/<secret-name>
+oc describe secrets cert-manager-webhook-token-z9rj8
+oc get secret cert-manager-webhook-token-z9rj8 -o yaml
+
+
+# Consume the Secret as Environment Variables
+
+# Almost the same as ConfigMaps
+oc set env dc/<dc-name> --from secret/<secret-name>
+
+# Create ImageStreams
+
+# Create the ImageStream (but don't deploy yet)
+oc import-image --confirm <image tag>
+
+# Example with this course's image
+oc import-image --confirm quay.io/practicalopenshift/hello-world
+
+# Importing any new images
+oc import-image --confirm quay.io/practicalopenshift/hello-world
+
+
+# Importing extra ImageStreamTags for an existing ImageStream
+
+# oc tag syntax
+oc tag <original> <destination>
+
+# Example
+oc tag quay.io/image-name:tag image-name:tag
+
+
+# Check the current ImageStreams and ImageStreamTags
+
+# List ImageStreams
+oc get is
+
+# List tags
+oc get istag
+
+
+# Use the ImageStream with oc new-app
+
+# Deploy an application based on your new ImageStream
+oc new-app myproject/hello-world
+
+
+# Creating and pushing a private image
+# These require signing up for a Quay.io account and pushing a private image
+
+# Remote Tag syntax
+<host name>/<your username>/<image name>
+
+# Building an image with a remote tag
+docker build -t quay.io/$REGISTRY_USERNAME/private-repo .
+
+# Log into a registry
+docker login <hostname>
+
+# Log into quay.io
+docker login quay.io
+
+# Push (send) an image to a remote registry
+docker push <remote tag>
+
+# Push the image to Quay
+docker push quay.io/$REGISTRY_USERNAME/private-repo
+
+
+# Use Private images with OpenShift
+
+# You may need to run this command 
+source credentials.env
+
+# Create a Docker registry secret
+oc create secret docker-registry \
+  <secret name> \
+  --docker-server=$REGISTRY_HOST \
+  --docker-username=$REGISTRY_USERNAME \
+  --docker-password=$REGISTRY_PASSWORD \
+  --docker-email=$REGISTRY_EMAIL
+
+# A touch of secrets magic
+# This command links the secret to the service account named "default"
+oc secrets link default <secret name> --for=pull
+
+# Check that the service account has the secret associated
+oc describe serviceaccount/default
+
+# Once authentication is set up, start the application 
+oc new-app quay.io/$REGISTRY_USERNAME/private-repo \
+  --as-deployment-config
+
+# Get service documentation
+
+# Access oc explain documentation
+oc explain service
+
+# Get more information about Service's spec
+oc explain service.spec
+
+# Get YAML definition for a service
+oc get -o yaml service/hello-world
+
+# Get YAML definition for a route
+oc get -o yaml route/hello-world
+
+
+# Creating services
+
+# Create a service for a single pod
+oc expose --port 8080 pod/hello-world-pod
+
+# Create a service for a DeploymentConfig 
+oc expose --port 8080 dc/hello-world
+
+# Check that the service and pod are connected properly
+oc status
+
+
+# Using Pod environment variables to find service Virtual IPs
+
+# Inside the pod, get all environment variables
+env
+
+# Use the environment variables with wget
+wget -qO- $HELLO_WORLD_POD_PORT_8080_TCP_ADDR:$HELLO_WORLD_POD_PORT_8080_TCP_PORT
+
+
+# Creating Routes
+
+# Create a Route based on a Service
+oc expose svc/hello-world
+
+# Get the Route URL
+oc status
+
+# Check the route
+curl <route from oc status>
+
+
+# Use S2I in a build
+# The syntax is the same as normal Builds. OpenShift uses S2I when there is no Dockerfile
+
+# oc new-app works with S2I 
+oc new-app <Git URL with no Dockerfile> \
+  --as-deployment-config
+
+# oc new-build works with S2I 
+oc new-build <Git URL with no Dockerfile>
+
+# Example: build the s2i/ruby directory of the labs project
+oc new-app https://gitlab.com/practical-openshift/labs.git \
+  --context-dir s2i/ruby \
+  --as-deployment-config
+
+
+# Specifying a builder image
+oc new-app builder-image~<Git URL> \
+  --as-deployment-config
+
+
+# Example: Deploy with the ruby image explicitly declared
+oc new-app \
+  ruby~https://gitlab.com/practical-openshift/labs.git \
+  --context-dir s2i/ruby \
+  --as-deployment-config
+
+
+
+# Overriding S2I Scripts
+# Assemble and Run are the two main scripts
+# Overrides go in your source at .s2i/bin/assemble or .s2i/bin/run
+# They need to call the original scripts, which are usually at /usr/libexec/s2i/assemble or /usr/libexec/s2i/run
+
+
+# Manual Scaling
+
+# General Syntax
+oc scale dc/<dc name> --replicas=<desired replicas>
+
+# Example: Manual scale to 3 pods
+oc scale dc/hello-world --replicas=3
+
+# Example: Scale back down to one
+oc scale dc/hello-world --replicas=1
+
+
+# Autoscaling
+
+# General Syntax to create a HorizontalPodAutoscaler (HPA)
+oc autoscale dc/<dc name> \
+  --min <desired minimum pods> \
+  --max <desired maximum pods> \
+  --cpu-percent=<desiredTargetCPU>
+
+# Example of scaling Hello World between 1 and 10 pods with an 80% CPU target
+oc autoscale dc/hello-world \
+  --min 1 \
+  --max 10 \
+  --cpu-percent=80
+
+# Check the HPA
+oc get hpa
+
+# More information on the HPA
+oc describe hpa/hello-world
+
+# Get the YAML for the HPA
+oc get -o yaml hpa/hello-world
+
+
+# Mount an emptyDir volume
+
+# Main syntax
+oc set volume dc/<dc name> --add --type emptyDir --mount-path <path inside container>
+
+# Example:Add an emptyDir volume
+oc set volume dc/hello-world \
+  --add \
+  --type emptyDir \
+  --mount-path /empty-dir-demo
+
+
+# Mount ConfigMaps as volumes
+
+# Main command
+oc set volume <DC name> --add --configmap-name <configmap name> --mount-path <path inside container>
+
+# Example: Create the configmap to use as a Volume
+oc create configmap cm-volume \
+  --from-literal file.txt="ConfigMap file contents"
+
+# Example: Mount the ConfigMap
+oc set volume dc/hello-world \
+  --add \
+  --configmap-name cm-volume \
+  --mount-path /cm-directory
+
+
+# Using other Volume Suppliers
+# There are a wide variety of suppliers
+# oc explain and the online documentation are both very helpful
+
+# The official Kubernetes Documentation for Volumes
+https://kubernetes.io/docs/concepts/storage/volumes/
+
+# Check out the built-in documentation
+oc explain persistentvolume.spec
+# Manage templates as OpenShift resources
+
+# Create the template from the file
+oc create -f template/hello-world-template.yaml
+
+# Check the template
+oc get template
+
+# Create an application based on the template
+oc new-app hello-world
+
+
+# Set parameter values
+
+oc new-app hello-world \
+  -p MESSAGE="Hello from parameter override."
+
+
+# Process templates
+
+# Basic processing (gives you JSON)
+oc process hello-world
+
+# Get the processed results in YAML
+oc process hello-world -o yaml
+
+# With parameters
+oc process hello-world -o yaml \
+  -p MESSAGE="Hello from oc process"
+
+# Save the processed template to a file
+oc process hello-world -o yaml \
+  -p MESSAGE="Hello from oc process" \
+  > processed-objects.yaml
+
+# Check the file
+head processed-objects.yaml
+
+# Create the objects
+oc create -f processed-objects.yaml
+
+
+
+# Use a template file
+
+oc process -o yaml -f <template file>
+
+# Use a file-based template
+oc process -o yaml \
+  -f template/hello-world-template.yaml
+
+# Example with oc new-app and a parameter
+oc new-app \
+  -f template/hello-world-template.yaml
+  -p MESSAGE="Hello from oc new-app with a file"
+
+
+# Creating your own Template
+
+# Get YAML for existing objects on the OpenShift server
+# The dc,is... syntax lists the types of resources that you would like to export
+# Add hpa or any other type if you need them
+oc get -o yaml dc,is,bc,svc,route
+
+# Save output to a file
+oc get -o yaml dc,is,bc,svc,route \
+  > test-template.yaml
+
+# Open it up in your favorite text editor
+vi test-template.yaml
+
+Steps for a custom template:
+1. Change the items property to objects
+2. Change kind from List to Template
+3. Add a name property to the metadata section
+4. Remove status from each resource
+5. Remove most of metadata except for name, labels, and annotations
+6. Remove any automatically-assigned resources such as service Virtual IPs and Route hosts
+7. (optional) Add template parameters 
+
+# Example parameter definition
+- description: Message to respond to requests with
+  displayName: Message
+  name: MESSAGE
+  required: false
+  value: Hello from the default value for the template
+
+# Using the parameter in your template YAML
+          env:
+            - name: MESSAGE
+              # This syntax copies the template parameter value as a YAML string
+              value: ${MESSAGE}
+			  
